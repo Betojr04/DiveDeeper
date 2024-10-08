@@ -34,4 +34,4 @@ user_numbers = (
     input("Enter your second number"),
     input("enter your third number"),
 )
-print(max(user_numbers))
+print(min(user_numbers))
