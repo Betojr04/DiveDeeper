@@ -5,4 +5,9 @@ TASK 1
 Expected Outcome: If you test the year 1900, is should be False. The year 2000 should be True. The year 2024 should be True
 """
 
-user_year = input("Please enter a year (e.g 2014): ")
+user_year = int(input("Please enter a year (e.g 2014): "))
+
+if user_year % 4 == 0 and user_year % 400 == 0:
+    print(True)
+elif user_year % 100 == 0:
+    print(False)
